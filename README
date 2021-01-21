@@ -1,0 +1,58 @@
+Setup:
+======
+
+Attacker Machine:   (Command and control server)
+----------------
+
+1.  Install Python 2.7
+2.  add Python installation path to Environment variable/Path variables 
+    c:/python2.7
+    c:/python27/Scripts
+    
+3.  Install some prequisite python packages:
+    pip install Pyside
+    pip install bs4
+    pip install flask
+    
+    
+4.  Code directory:    
+    gui/
+    
+
+5.  run Command-control server.   (Folder also contains Test.config file which can be modified to change network settings)
+    python Test.py
+    
+    
+6.  It will open Desktop based GUI.
+    >> Click on "start server"
+    >> Wait for incoming connections.   Once any connection is established,  server can send various payloads to victim (client) machine:   Screenshot,  Keylogging,
+      USB monitoring,  File download,  Console access (run any CMD command)
+    
+
+Victim Machine (client):
+========================
+Directory:
+gui/dist
+
+1.  Change networks settings in client.config file.   (server's IP,  DNS server,  etc)
+2.   Double click on client.exe
+3.   It will connect to attacker machine and execute whatever server demands as payload.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
