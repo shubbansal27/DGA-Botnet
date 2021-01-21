@@ -1,0 +1,28 @@
+ Volume in drive E is My Passport
+ Volume Serial Number is 1AEA-6007
+
+ Directory of E:\
+
+05/20/2017  12:31 AM    <DIR>          .Trash-1001
+08/12/2016  08:49 AM    <DIR>          Acrobat Reader DC
+09/21/2016  10:53 PM       678,625,280 Adobe Acrobat XI Pro v11.0.2 ISO-Multi-XFORCE-UR [BlueEagle].iso
+08/13/2017  02:52 AM    <DIR>          Algorithm
+08/07/2016  12:06 AM    <DIR>          Algorithms
+07/27/2018  08:24 AM    <DIR>          chikni-kotli
+07/27/2018  03:51 AM    <DIR>          CityPalace-pics
+08/13/2017  02:12 AM    <DIR>          cn
+08/07/2016  12:33 AM    <DIR>          Computer Networks
+01/14/2017  08:40 AM    <DIR>          D
+07/27/2018  04:22 AM        28,230,606 data_products_digisol_ranger_series_downloads_dg-wn3150nu_drivers_xp_vista_win_7_.zip
+07/14/2018  08:38 PM    <DIR>          E
+06/15/2016  01:35 AM    <DIR>          F
+07/28/2018  08:25 PM    <DIR>          laptop-backup
+08/07/2016  01:50 AM    <DIR>          OS
+07/28/2018  08:33 PM    <DIR>          phone-backup
+05/14/2017  06:15 AM    <DIR>          Pics from DH
+08/13/2017  02:53 AM    <DIR>          sdn
+03/11/2017  01:30 AM    <DIR>          Shubham Bhaiya
+02/06/2017  10:43 PM        10,395,588 SP800-22rev1a.pdf
+02/06/2017  10:58 PM        87,891,968 VCForPython27.msi
+               4 File(s)    805,143,442 bytes
+              17 Dir(s)  41,913,147,392 bytes free

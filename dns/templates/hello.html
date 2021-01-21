@@ -1,0 +1,77 @@
+<html>
+	<head>
+		
+		<script>
+			function generate() {
+				var domain = '{{ domain }}';
+				document.getElementById("domRes").innerHTML = domain
+				document.getElementById("dname").value = domain
+			}
+				
+		</script>
+	</head>
+	<body onLoad="generate()">
+		<img style="float:left" border="0" src="static/hacker.jpg" width="100" height="100">
+		<center><h1>REGISTER DOMAIN - DEMO</h1></center>
+		<br>
+		<hr><br>
+		<div>
+			<form>
+				<input type="submit" value="View Registered domains">
+			</form>	
+		</div>
+		<form align="center" action="register" method="post">
+			Domain Name: <input type="text" name="dname" id="dname"></input>
+			IP Address: <input type="text" name="ip"></input>
+			<input type="submit"></input>
+		</form>
+		
+		<br><br><hr><br>
+		
+		<div>
+			<h2 align="center">DOMAIN GENERATOR</h2><br>
+			<div style="float:left;background:lightgray">
+			    <fieldset>
+					<legend style="color:blue;font-weight:bold;">Date Based - DGA</legend>
+					<form action="generateDateDGA" method="post">
+						
+						<table align="center">
+							<tr><td>Date:<input style="text-align:center" type="text" name="date"></td><td>Month:<input style="text-align:center" type="text" name="month"></td><td>Year:<input style="text-align:center" type="text" name="year"></td></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+							
+						</table>
+						<br>
+						<div align="center"><input type="submit" id="gen" value="Generate"></div>
+						<br>
+					</form>
+				</fieldset>
+			</div>
+			<div style="float:left;background:lightblue">
+				<fieldset>
+					<legend style="color:blue;font-weight:bold;">Twitter Hashtag Based - DGA</legend>
+					<form action="generateTwitterDGA" method="post">
+						
+						<table  align="center">
+							<tr><td>Category:
+								<select name="category">
+									  <option value="Sport">Sport</option>
+									  <option value="Entertainment">Entertainment</option>
+									  <option value="Music">Music</option>
+									  
+								</select>
+							</td></tr>
+						
+						</table>
+						<br>
+						<div align="center"><input type="submit" id="gen" value="Generate"></div>
+						<br>
+					</form>
+				</fieldset>
+			</div>
+			
+		</div>
+		<br>
+		<div>
+			<h3 align="center" style="color:green" id="domRes">www.dsfsfsfsfsfsfsfsfsf.com</h3>
+		</div>
+	</body>
+</html>

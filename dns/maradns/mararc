@@ -1,0 +1,7 @@
+ipv4_bind_addresses = "192.168.43.75"
+timestamp_type = 2
+random_seed_file = "secret.txt"
+csv2 = {}
+csv2["local.com."] = "db.lan.txt"
+upstream_servers = {}
+upstream_servers["."] = "172.24.2.71"
