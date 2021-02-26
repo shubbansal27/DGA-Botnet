@@ -1,3 +1,6 @@
+DGA based advanced malware.
+It contains following key features: USB-tracking, key-logging, shell access payloads and twitter hashtag based domain generation
+
 Setup:
 ======
 
